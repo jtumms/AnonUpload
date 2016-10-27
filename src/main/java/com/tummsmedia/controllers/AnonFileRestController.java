@@ -19,5 +19,4 @@ public class AnonFileRestController {
     public Iterable<AnonFile> getFiles() {
         return files.findAll();
     }
-
 }
